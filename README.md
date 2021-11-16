@@ -25,6 +25,28 @@
 
 `go run main.go`
 
+**Dependencias**
+
+- GORM y Driver SQLite
+
+  `go get -u gorm.io/gorm`
+
+  `go get -u gorm.io/driver/sqlite`
+
+- Gin
+
+  `go get -u github.com/gin-gonic/gin`
+
+- Datatypes GORM
+
+  `go get -u gorm.io/datatypes`
+
+- Ginkgo y Gomega
+
+  `go get github.com/onsi/ginkgo/ginkgo`
+
+  `go get github.com/onsi/gomega/...`
+
 =============================================
 
 ### La API se levantara en el puerto :9098
