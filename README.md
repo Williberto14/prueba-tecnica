@@ -1,6 +1,6 @@
 # API REST de Productos
 
-## prueba-tecnica
+## prueba-técnica
 
 ============================================
 
@@ -8,7 +8,7 @@
 
 =============================================
 
-**Tecnologias usadas:**
+**Tecnologías usadas:**
 
 - Golang/Go
 - Gin Framework
@@ -19,7 +19,7 @@
 
 =============================================
 
-**Instalación:** Despues de clonar el repositorio ejecutar los siguiente comandos en la terminal
+**Instalación:** Después de clonar el repositorio ejecutar los siguiente comandos en la terminal
 
 `go mod tidy`
 
@@ -51,11 +51,11 @@
 
 **Windows**
 En windows 10 puede presentar problemas con el driver de SQlite
-se puede resolver instalando el siguiente software y agregandolo al PATH.
+se puede resolver instalando el siguiente software y agregándolo al PATH.
 
 https://jmeubank.github.io/tdm-gcc/
 
-Fuente de la soluciÓn:
+Fuente de la solución:
 
 https://stackoverflow.com/questions/43580131/exec-gcc-executable-file-not-found-in-path-when-trying-go-build
 
@@ -63,7 +63,7 @@ https://stackoverflow.com/questions/43580131/exec-gcc-executable-file-not-found-
 
 ### La API se levantara en el puerto :9098
 
-**Los endpoints expuestos al levantar la aplicacion son:**
+**Los endpoints expuestos al levantar la aplicación son:**
 
 - **POST** /products/create
 - **GET** /products/list
@@ -73,7 +73,7 @@ https://stackoverflow.com/questions/43580131/exec-gcc-executable-file-not-found-
 
 ---
 
-**Para acceder al siguiente endpoint debera autenticarse:**
+**Para acceder al siguiente endpoint deberá autenticarse:**
 
     Usuario     Contraseña
     "user1":    "root",
