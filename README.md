@@ -49,6 +49,18 @@
 
 =============================================
 
+**Windows**
+En windows 10 puede presentar problemas con el driver de SQlite
+se puede resolver instalando el siguiente software y agregandolo al PATH.
+
+https://jmeubank.github.io/tdm-gcc/
+
+Fuente de la soluciÓn:
+
+https://stackoverflow.com/questions/43580131/exec-gcc-executable-file-not-found-in-path-when-trying-go-build
+
+=============================================
+
 ### La API se levantara en el puerto :9098
 
 **Los endpoints expuestos al levantar la aplicacion son:**
