@@ -22,10 +22,12 @@
 **Instalación:** Despues de clonar el repositorio ejecutar los siguiente comandos en la terminal
 
 `go mod tidy`
+
 `go run main.go`
 
 =============================================
-La API se levantara en el puerto :9098
+
+### La API se levantara en el puerto :9098
 
 **Los endpoints expuestos al levantar la aplicacion son:**
 
@@ -34,6 +36,16 @@ La API se levantara en el puerto :9098
 - **GET** /products/find/:id
 - **PUT** /products/update/:id
 - **DELETE** /products/delete/:id
+
+---
+
+**Para acceder al siguiente endpoint debera autenticarse:**
+
+    Usuario     Contraseña
+    "user1":    "root",
+    "user2":    "1234",
+
+- **GET** /volumes
 
 =============================================
 
