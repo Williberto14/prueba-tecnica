@@ -38,6 +38,7 @@ func main() {
 //=====================================================================================
 
 func CreateProduct(c *gin.Context) {
+	fmt.Println("A ver si levanta")
 	var product model.Product
 	c.BindJSON(&product)
 	id := product.Product_id
@@ -96,7 +97,6 @@ func DeleteProduct(c *gin.Context) {
 }
 
 func GetVolumes(c *gin.Context) {
-	fmt.Println("Estamos vivos")
 	jsonFile, _ := ioutil.ReadFile("./volumes/volumen_list.json")
 	var data interface{}
 	json.Unmarshal(jsonFile, &data)
