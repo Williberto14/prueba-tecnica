@@ -19,13 +19,25 @@
 
 =============================================
 
-**Instalación:** Despues de clonar el repositorio ejecutar el siguiente comando en la terminal
+**Instalación:** Despues de clonar el repositorio ejecutar los siguiente comandos en la terminal
 
+`go mod tidy`
 `go run main.go`
 
 =============================================
+La API se levantara en el puerto :9098
 
-Estructura del proyecto
+**Los endpoints expuestos al levantar la aplicacion son:**
+
+- **POST** /products/create
+- **GET** /products/list
+- **GET** /products/find/:id
+- **PUT** /products/update/:id
+- **DELETE** /products/delete/:id
+
+=============================================
+
+## Estructura del proyecto
 
 ![Estructura del proyecto](https://i.ibb.co/cJS40vV/Estructura-del-proyecto.png)
 
